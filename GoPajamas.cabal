@@ -12,11 +12,11 @@ maintainer:          menonvikas@gmail.com
 -- copyright:           
 -- category:            
 build-type:          Simple
--- extra-source-files:  
+extra-source-files:  README.md
 cabal-version:       >=1.10
 
-library
-  -- exposed-modules:     
+executable GoPajamas
+  main-is:             Main.hs
   -- other-modules:       
   -- other-extensions:    
   build-depends:       base >=4.7 && <4.8, split
