@@ -1,8 +1,6 @@
-foo x = x*x
+import Data.List (intercalate)
+import Data.List.Split (splitOn)
 
-fooBar y = y + foo y
+solve x = intercalate " " $ reverse $ splitOn " " x
 
 
-main = do line <- fmap reverse getLine  
-          putStrLn $ "You said " ++ line ++ " backwards!"  
-          putStrLn $ "Yes, you really said" ++ line ++ " backwards!"  

@@ -1,0 +1,7 @@
+*~
+*.exe
+*.hi
+*.o
+*.save*
+dist/*
+.cabal-sandbox/*
