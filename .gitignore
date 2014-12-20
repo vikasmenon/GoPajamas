@@ -7,3 +7,5 @@ dist/*
 .cabal-sandbox/*
 *.cabal
 TAGS
+*.in
+*.out
